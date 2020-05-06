@@ -37,6 +37,11 @@ html {
   z-index: 1;
 }
 
+.btn-container {
+  margin: 30px 0;
+  text-align: center;
+}
+
 .page-section {
   padding: 20px 15px;
 }
