@@ -1,4 +1,4 @@
-@media (min-width: 355px) {
+@media (min-width: 340px) {
   .step-arrow {
     position: absolute;
     top: 23%;
@@ -10,6 +10,30 @@
     top: 23.4%;
     right: -13%;
   }
+
+  .stepB .step-arrow {
+    position: absolute;
+    top: 23%;
+    right: -13%;
+  }
+
+  .works-container:after {
+    content: "";
+    width: 200px;
+    height: 2px;
+    background-color: var(--primary-yellow);
+    position: absolute;
+    margin: 0 auto;
+    top: 28%;
+  }
+}
+
+@media (min-width: 370px) {
+  .stepB .step-arrow {
+    position: absolute;
+    top: 26%;
+    right: -13%;
+  }
 }
 
 @media (min-width: 440px) {
@@ -17,6 +41,17 @@
     position: absolute;
     top: 26%;
     right: -13%;
+  }
+
+  .works-container:after {
+    content: "";
+    width: 310px;
+    height: 2px;
+    background-color: var(--primary-yellow);
+    position: absolute;
+    margin: 0 auto;
+    top: 28%;
+    z-index: -3;
   }
 }
 

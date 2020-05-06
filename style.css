@@ -34,6 +34,7 @@ html {
   border: 1px solid transparent;
   outline: none;
   font-size: 16px;
+  z-index: 1;
 }
 
 .page-section {
@@ -102,6 +103,15 @@ header {
   text-transform: uppercase;
 }
 
+.body-title:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: var(--primary-yellow);
+  margin: 0 auto;
+  display: block;
+}
+
 .benifits-title {
   text-align: center;
   color: var(--primary-yellow);
@@ -136,6 +146,18 @@ header {
   justify-content: center;
   align-items: baseline;
   text-align: center;
+  position: relative;
+}
+
+.works-container:after {
+  content: "";
+  width: 200px;
+  height: 2px;
+  background-color: var(--primary-yellow);
+  position: absolute;
+  margin: 0 auto;
+  top: 25%;
+  z-index: -1;
 }
 
 .step {
@@ -153,6 +175,12 @@ header {
 .step2 .step-arrow {
   position: absolute;
   top: 21%;
+  right: -13%;
+}
+
+.stepB .step-arrow {
+  position: absolute;
+  top: 23%;
   right: -13%;
 }
 
@@ -197,6 +225,15 @@ header {
   text-transform: uppercase;
   margin-top: 0;
   padding-top: 0;
+}
+
+.contact-title:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #000;
+  display: block;
+  margin: 0 auto;
 }
 
 .email-container .fas,
