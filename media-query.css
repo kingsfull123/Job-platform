@@ -12,6 +12,14 @@
   }
 }
 
+@media (min-width: 440px) {
+  .step1 .step-arrow {
+    position: absolute;
+    top: 26%;
+    right: -13%;
+  }
+}
+
 @media (min-width: 716px) {
   .benifits-container {
     display: flex;
@@ -34,6 +42,30 @@
   .btn-round {
     width: 55px;
     height: 55px;
+  }
+
+  .phone-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .phone-container span {
+    margin: 0 20px;
+  }
+
+  .terms-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 450px;
+  }
+
+  .terms-container li {
+    list-style: none;
+    flex: 1 50%;
   }
 }
 
