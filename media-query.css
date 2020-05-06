@@ -1,0 +1,77 @@
+@media (min-width: 355px) {
+  .step-arrow {
+    position: absolute;
+    top: 23%;
+    right: -13%;
+  }
+
+  .step2 .step-arrow {
+    position: absolute;
+    top: 23.4%;
+    right: -13%;
+  }
+}
+
+@media (min-width: 716px) {
+  .benifits-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .benifit-container {
+    flex: 1 45%;
+  }
+
+  .call-for-action-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .btn-round {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media (min-width: 760px) {
+  .logo-container {
+    display: flex;
+    margin-bottom: 25px;
+  }
+
+  .header-container {
+    max-width: 65%;
+  }
+
+  .title {
+    padding: 0;
+    margin: 0;
+    font-size: 26px;
+  }
+
+  .title-1 {
+    color: var(--primary-yellow);
+  }
+
+  .title-2 {
+    color: #fff;
+  }
+}
+
+@media (min-width: 990px) {
+  .page-section {
+    max-width: 950px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1150px) {
+  .page-section {
+    max-width: 990px;
+    margin: auto;
+  }
+}
